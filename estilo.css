@@ -1,0 +1,109 @@
+/* Selecciona la pagina */
+body 
+{
+    background-color: cadetblue;
+}
+
+/*Selecciona la etiqueta que contiene todos los elementos de la pagina */
+#menu_restaurante
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Seleccion las diversas categorias de comida que hay */
+#categorias
+{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+/* Seleccion los botones que contiene la clase "categorias" */
+#categorias li
+{
+  margin: 10px;
+}
+
+/* Seleccion los botos para escoger las categorias de alimentos "todos","desayuno",etc */
+#categorias button
+{
+  font-size: 25px;
+}
+
+
+/* Seleccion la lista que contiene todos los alimentos, precios, descripcion */
+#lista_comidas
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Seleccion la imagen de cada comida */
+.foto_comida
+{
+  width: 200px;
+  height: 200px;
+  border: 2px solid yellow;
+  border-radius: 10px;
+}
+
+/*Seleccion cada comida que hay dentro del menu */
+.desayuno, .almuerzo, .batidos
+{
+  margin: 30px;
+  display: flex;
+  width: 500px;
+  height: 150px;
+}
+
+/* Selecciona el nombre y el precio de cada alimento */
+.nombre_comida, .precio
+{
+  display: inline-block
+}
+
+/* Selecciona el nombre de la comida */
+.nombre_comida
+{
+  margin-right: 20px;
+}
+
+/* Selecciona el precio de la comida */
+.precio
+{
+  margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
